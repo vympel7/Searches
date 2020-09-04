@@ -8,3 +8,4 @@ def b_search(seq, t):
             l = mid+1
         else:
             return seq[mid]
+    return -1
