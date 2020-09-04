@@ -30,4 +30,5 @@ print(result)
 ```
 
 #### Note
-These algorithms only work if the array is sorted.
+These algorithms only work if the array is sorted.  
+Value -1 is returned when target is not found.
