@@ -1,4 +1,12 @@
 def b_search(seq, t):
+    """
+        Performs binary search on an ordered array of numbers.
+
+        Cases:
+        Best - O(1)
+        Average - O(log n)
+        Worst - O(log n)
+    """
     l = 0; r = len(seq)
     while l <= r:
         mid = l + (r - l) // 2
