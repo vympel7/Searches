@@ -1,4 +1,4 @@
-from binary_search import b_search
+from .binary_search import b_search
 def e_search(seq, t):
     """
         Performs exponential search on an ordered array of numbers.

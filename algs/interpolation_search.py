@@ -1,13 +1,13 @@
 def i_search(seq, t):
-    """
-        Performs interpolation search on an ordered array of numbers.
-
-        Cases:\n
-        Best - O(1)\n
+	"""
+	    Performs interpolation search on an ordered array of numbers.
+	    Cases:\n
+	    Best - O(1)\n
 		Average - O(log log n)\n
 		Worst - O(n)
-    """
-	l, r = 0, len(seq) - 1
+	"""
+	l = 0
+	r = len(seq)-1
 	while seq[r] != seq[l] and seq[l] <= t <= seq[r]:
 		mid = l + (t - seq[l]) * (r - l) // (seq[r] - seq[l])
 		if t == seq[mid]:

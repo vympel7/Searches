@@ -6,7 +6,7 @@ Search algorithms for python.
 - [x] Jump search
 - [x] Interpolation search
 - [x] Exponential search
-- [ ] Fibonacci search
+- [x] Fibonacci search
 
 ### Use example
 ```python
@@ -27,6 +27,10 @@ print(result)
 array = [3, 4, 6, 9, 11, 14, 21, 36]
 result = e_search(array, 21)
 print(result)
+
+array = [1, 2, 5, 9, 17, 28, 35, 41]
+result = f_search(array, 17)
+print(result)
 ```  
 
 ```shell
@@ -34,6 +38,7 @@ print(result)
 -1
 7
 6
+4
 ```
 
 #### Note
