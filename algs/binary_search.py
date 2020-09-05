@@ -7,6 +7,8 @@ def b_search(seq, t):
         Average - O(log n)\n
         Worst - O(log n)
     """
+    if type(seq) == dict:
+        seq = list(seq.values())
     l = 0; r = len(seq)-1
     while l <= r:
         mid = l + (r - l) // 2

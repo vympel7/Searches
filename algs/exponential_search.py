@@ -9,6 +9,8 @@ def e_search(seq, t):
         Average - O(log i)\n
         Worst - O(log i)
     """
+    if type(seq) == dict:
+        seq = list(seq.values())
     if seq[0] == t:
         return 0
     i = 1

@@ -6,6 +6,8 @@ def i_search(seq, t):
 		Average - O(log log n)\n
 		Worst - O(n)
 	"""
+	if type(seq) == dict:
+		seq = list(seq.values())
 	l = 0
 	r = len(seq)-1
 	while seq[r] != seq[l] and seq[l] <= t <= seq[r]:

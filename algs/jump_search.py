@@ -8,6 +8,8 @@ def j_search(seq, t):
         Average - O(√n)\n
         Worst - O(2√n)
     """
+    if type(seq) == dict:
+        seq = list(seq.values())
     step = int(math.sqrt(len(seq)))+1
     l = 0; r = l + step
     while r < len(seq):

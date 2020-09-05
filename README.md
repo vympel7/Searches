@@ -42,5 +42,6 @@ print(result)
 ```
 
 #### Note
-These algorithms only work if the array is sorted.  
+These algorithms only work if the input sequence is sorted.  
+When the input sequence is a dictionary, these algorithms will search in the values.  
 Value -1 is returned when target is not found.

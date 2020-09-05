@@ -7,6 +7,8 @@ def f_search(seq, t):
         Average - O(log n)\n
         Worst - O(log n)
     """
+    if type(seq) == dict:
+        seq = list(seq.values())
     fib_m2 = 0
     fib_m1 = 1
     fib_m = fib_m1 + fib_m2
