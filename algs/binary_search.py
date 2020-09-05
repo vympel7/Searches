@@ -2,9 +2,9 @@ def b_search(seq, t):
     """
         Performs binary search on an ordered array of numbers.
 
-        Cases:
-        Best - O(1)
-        Average - O(log n)
+        Cases:\n
+        Best - O(1)\n
+        Average - O(log n)\n
         Worst - O(log n)
     """
     l = 0; r = len(seq)-1

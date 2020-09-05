@@ -3,9 +3,9 @@ def j_search(seq, t):
     """
         Performs jump search on an ordered array of numbers.
 
-        Cases:
-        Best - O(1)
-        Average - O(√n)
+        Cases:\n
+        Best - O(1)\n
+        Average - O(√n)\n
         Worst - O(2√n)
     """
     step = int(math.sqrt(len(seq)))+1

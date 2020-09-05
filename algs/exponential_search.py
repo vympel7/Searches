@@ -3,10 +3,10 @@ def e_search(seq, t):
     """
         Performs exponential search on an ordered array of numbers.
 
-        Cases:
-        i is the index of the target element
-        Best - O(1)
-        Average - O(log i)
+        Cases:\n
+        i is the index of the target element\n
+        Best - O(1)\n
+        Average - O(log i)\n
         Worst - O(log i)
     """
     if seq[0] == t:

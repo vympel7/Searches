@@ -2,9 +2,9 @@ def i_search(seq, t):
     """
         Performs interpolation search on an ordered array of numbers.
 
-        Cases:
-        Best - O(1)
-		Average - O(log log n)
+        Cases:\n
+        Best - O(1)\n
+		Average - O(log log n)\n
 		Worst - O(n)
     """
 	l, r = 0, len(seq) - 1
