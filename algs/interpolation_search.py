@@ -9,7 +9,7 @@ def i_search(seq, t):
 	l = 0
 	r = len(seq)-1
 	while seq[r] != seq[l] and seq[l] <= t <= seq[r]:
-		mid = l + (t - seq[l]) * (r - l) // (seq[r] - seq[l])
+		mid = l + int((t - seq[l]) * (r - l) // (seq[r] - seq[l]))
 		if t == seq[mid]:
 			return mid
 		elif t < seq[mid]:
