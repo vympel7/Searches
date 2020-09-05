@@ -22,6 +22,7 @@ print(result)
 
 array = [2, 3, 4, 4, 6, 8, 11, 16, 25]
 result = i_search(array, 16)
+print(result)
 ```  
 
 ```shell
